@@ -52,10 +52,10 @@ function youtubeTheme(){
     var wave2=document.getElementById("wave2");
     var wave3=document.getElementById("wave3");
     var wave4=document.getElementById("wave4");
-    wave1.style.backgroundImage = "url('wave-yt.png')";
-    wave2.style.backgroundImage = "url('wave-yt.png')";
-    wave3.style.backgroundImage = "url('wave-yt.png')";
-    wave4.style.backgroundImage = "url('wave-yt.png')";
+    wave1.style.backgroundImage = "url('./assets/images/wave-yt.png')";
+    wave2.style.backgroundImage = "url('./assets/images/wave-yt.png')";
+    wave3.style.backgroundImage = "url('./assets/images/wave-yt.png')";
+    wave4.style.backgroundImage = "url('./assets/images/wave-yt.png')";
 
     document.getElementById("footer").style.background="red";
 
@@ -72,10 +72,10 @@ function facebookTheme(){
     var wave2=document.getElementById("wave2");
     var wave3=document.getElementById("wave3");
     var wave4=document.getElementById("wave4");
-    wave1.style.backgroundImage = "url('wave-fb.png')";
-    wave2.style.backgroundImage = "url('wave-fb.png')";
-    wave3.style.backgroundImage = "url('wave-fb.png')";
-    wave4.style.backgroundImage = "url('wave-fb.png')";
+    wave1.style.backgroundImage = "url('./assets/images/wave-fb.png')";
+    wave2.style.backgroundImage = "url('./assets/images/wave-fb.png')";
+    wave3.style.backgroundImage = "url('./assets/images/wave-fb.png')";
+    wave4.style.backgroundImage = "url('./assets/images/wave-fb.png')";
 
     document.getElementById("footer").style.background="#1977F2";
 }   
@@ -91,10 +91,10 @@ function instaTheme(){
         var wave2=document.getElementById("wave2");
         var wave3=document.getElementById("wave3");
         var wave4=document.getElementById("wave4");
-        wave1.style.backgroundImage = "url('wave-ig-y.png')";
-        wave2.style.backgroundImage = "url('wave-ig-r.png')";
-        wave3.style.backgroundImage = "url('wave-ig-p.png')";
-        wave4.style.backgroundImage = "url('wave-ig-v.png')";
+        wave1.style.backgroundImage = "url('./assets/images/wave-ig-y.png')";
+        wave2.style.backgroundImage = "url('./assets/images/wave-ig-r.png')";
+        wave3.style.backgroundImage = "url('./assets/images/wave-ig-p.png')";
+        wave4.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
 
         document.getElementById("footer").style.background="#FFA350";
 }
@@ -110,10 +110,10 @@ function twitterTheme(){
     var wave2=document.getElementById("wave2");
     var wave3=document.getElementById("wave3");
     var wave4=document.getElementById("wave4");
-    wave1.style.backgroundImage = "url('wave-tw.png')";
-    wave2.style.backgroundImage = "url('wave-tw.png')";
-    wave3.style.backgroundImage = "url('wave-tw.png')";
-    wave4.style.backgroundImage = "url('wave-tw.png')";
+    wave1.style.backgroundImage = "url('./assets/images/wave-tw.png')";
+    wave2.style.backgroundImage = "url('./assets/images/wave-tw.png')";
+    wave3.style.backgroundImage = "url('./assets/images/wave-tw.png')";
+    wave4.style.backgroundImage = "url('./assets/images/wave-tw.png')";
 
     document.getElementById("footer").style.background="#179CF0";
 }   
@@ -129,10 +129,10 @@ function unknownTheme(){
     var wave2=document.getElementById("wave2");
     var wave3=document.getElementById("wave3");
     var wave4=document.getElementById("wave4");
-    wave1.style.backgroundImage = "url('wave-ig-v.png')";
-    wave2.style.backgroundImage = "url('wave-ig-v.png')";
-    wave3.style.backgroundImage = "url('wave-ig-v.png')";
-    wave4.style.backgroundImage = "url('wave-ig-v.png')";
+    wave1.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
+    wave2.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
+    wave3.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
+    wave4.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
 
     document.getElementById("footer").style.background="#820AFC";
 }
@@ -147,10 +147,10 @@ function restoreTheme(){
     var wave2=document.getElementById("wave2");
     var wave3=document.getElementById("wave3");
     var wave4=document.getElementById("wave4");
-    wave1.style.backgroundImage = "url('wave.png')";
-    wave2.style.backgroundImage = "url('wave.png')";
-    wave3.style.backgroundImage = "url('wave.png')";
-    wave4.style.backgroundImage = "url('wave.png')";
+    wave1.style.backgroundImage = "url('./assets/images/wave.png')";
+    wave2.style.backgroundImage = "url('./assets/images/wave.png')";
+    wave3.style.backgroundImage = "url('./assets/images/wave.png')";
+    wave4.style.backgroundImage = "url('./assets/images/wave.png')";
 
     document.getElementById("footer").style.background="#3586ff";
 }
