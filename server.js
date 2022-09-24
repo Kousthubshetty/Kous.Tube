@@ -16,7 +16,7 @@ app.get('/download',(req, res) => {
     const path = './myvideo.mp4'
     download(url, path, () => {
         console.log('✅ Downloaded on server machine!')
-        filepath='/myvideo.mp4';
+        filepath='/Users/kousthubshetty/Downloads/programs/NodeJS/download-videos/myvideo.mp4';
         filename='ur_42'+Math.random()+'.mp4'
         res.download(filepath,filename,()=>{console.log('✅ Downloaded on client machine!')});
       })
