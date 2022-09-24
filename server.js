@@ -19,7 +19,7 @@ app.get('/download',(req, res) => {
         console.log('✅ Downloaded on server machine!')
         let relativePath = './myvideo.mp4';
         filepath=path.resolve(relativePath);
-        filename='KousTube_42'+Math.random()+'.mp4'
+        filename='KousTube_'+Date.now()+'.mp4'
         res.download(filepath,filename,()=>{console.log('✅ Downloaded on client machine!')});
       })
 
