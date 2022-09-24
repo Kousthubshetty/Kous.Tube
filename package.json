@@ -2,7 +2,7 @@
   "name": "kous.tube",
   "version": "1.0.0",
   "description": "Video Downloading WebAPP",
-  "main": "sendFiletoclient.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,12 +18,12 @@
   "homepage": "https://github.com/Kousthubshetty/Kous.Tube#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "nodemon": "^2.0.20",
     "request": "^2.88.2",
     "youtube-dl": "^3.5.0"
   },
-  "script":{
-    "test":
-    "echo \"Error: no test specified\" && exit 1",
-      "start":""
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
