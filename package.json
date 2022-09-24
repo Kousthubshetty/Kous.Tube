@@ -1,0 +1,24 @@
+{
+  "name": "kous.tube",
+  "version": "1.0.0",
+  "description": "Video Downloading WebAPP",
+  "main": "sendFiletoclient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kousthubshetty/Kous.Tube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kousthubshetty/Kous.Tube/issues"
+  },
+  "homepage": "https://github.com/Kousthubshetty/Kous.Tube#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "request": "^2.88.2",
+    "youtube-dl": "^3.5.0"
+  }
+}
