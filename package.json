@@ -20,5 +20,10 @@
     "express": "^4.18.1",
     "request": "^2.88.2",
     "youtube-dl": "^3.5.0"
+  },
+  "script":{
+    "test":
+    "echo \"Error: no test specified\" && exit 1",
+      "start":""
   }
 }
