@@ -3,6 +3,7 @@ const app= express();
 const fs = require('fs')
 const youtubedl = require('youtube-dl')
 const request = require('request')
+const port = process.env.PORT || 3000;
 
 const download = (url, path, callback) => {
   const video = youtubedl(url)
@@ -15,11 +16,11 @@ app.get('/download',(req, res) => {
     const path = './myvideo.mp4'
     download(url, path, () => {
         console.log('✅ Downloaded on server machine!')
-        filepath='/Users/kousthubshetty/Downloads/programs/NodeJS/download-videos/myvideo.mp4';
+        filepath='/myvideo.mp4';
         filename='ur_42'+Math.random()+'.mp4'
         res.download(filepath,filename,()=>{console.log('✅ Downloaded on client machine!')});
       })
 
 })
 
-app.listen(3000);
+app.listen(port);
