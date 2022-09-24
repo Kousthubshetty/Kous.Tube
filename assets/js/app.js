@@ -19,21 +19,27 @@ function searchClicked(){
 
     if (yresult1>=0 || yresult2>=0){
         console.log("youtube");
+        document.getElementById("download-btn").removeAttribute('disabled')
         youtubeTheme()
     }else if(fresult>=0){
         console.log("facebook");
+        document.getElementById("download-btn").removeAttribute('disabled')
         facebookTheme()
     }else if(iresult>=0){
         console.log("insta");
+        document.getElementById("download-btn").removeAttribute('disabled')
         instaTheme()
     }else if(tresult>=0){
         console.log("twitter");
+        document.getElementById("download-btn").removeAttribute('disabled')
         twitterTheme()
     }else if(search!=""){
         console.log("unknown");
+        document.getElementById("download-btn").disabled="true";
         unknownTheme()
     }else{
         console.log("restore");
+        document.getElementById("download-btn").disabled="true";
         restoreTheme()
     }
 }
@@ -133,7 +139,6 @@ function unknownTheme(){
     wave2.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
     wave3.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
     wave4.style.backgroundImage = "url('./assets/images/wave-ig-v.png')";
-
     document.getElementById("footer").style.background="#820AFC";
 }
 
